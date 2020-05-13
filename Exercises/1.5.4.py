@@ -8,8 +8,8 @@ mod = 37
 for base in range(1, mod):
     order = 0
     for exponent in range(1, mod):
-        diff = (base**exponent-1)/mod
-        if diff == 0:
+        remainder = (base**exponent-1) % mod
+        if remainder == 0:
             order = exponent
             break
     print("order of " + str(base) + ": " + str(order))
