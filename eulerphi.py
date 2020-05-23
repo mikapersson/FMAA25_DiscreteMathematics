@@ -27,7 +27,7 @@ def euler_phi(n):
 
 
 # Let's play
-cap = 10000   
+cap = 10000
 x_values = np.arange(2, cap)
 y_values = np.asarray([euler_phi(x) for x in x_values])
 

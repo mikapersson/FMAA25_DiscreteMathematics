@@ -14,4 +14,4 @@ for base in range(1, mod):
             break
     print("order of " + str(base) + ": " + str(order))
 
-
+  
